@@ -5,11 +5,9 @@ def prime?(num)
       return false if num % x == 0
     end
     return true
-  elsif num < 0
+  elsif num < 2
     return false
-  elsif num == 2
-    return true
   else
-    return false
+    return true
   end
 end
